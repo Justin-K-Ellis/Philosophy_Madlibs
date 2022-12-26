@@ -23,15 +23,15 @@ def republic():
     print(republic_intro)
 
 def metaphysics():
-    noun1 = input("Give me a plural noun:  ")
-    verb1 = input("Give me a verb:  ")
-    noun2 = input("Give me another plural noun:  ")
-    noun3 = input("And another plural noun, please:  ")
-    past_verb1 = input("Now give me a past-tense verb:  ")
-    body_part = input("Now give me a body part:  ")
-    verb3 = input("Now give me another present-tense verb:  ")
-    noun4 = input("Last plural noun, I swear:  ")
-    verb4 = input("Last, one more present-tense verb:  ")
+    noun1 = input("Give me a plural noun: ")
+    verb1 = input("Give me a verb: ")
+    noun2 = input("Give me another plural noun: ")
+    noun3 = input("And another plural noun, please: ")
+    past_verb1 = input("Now give me a past-tense verb: ")
+    body_part = input("Now give me a body part: ")
+    verb3 = input("Now give me another present-tense verb: ")
+    noun4 = input("Last plural noun, I swear: ")
+    verb4 = input("Last, one more present-tense verb: ")
 
     metaphysics_intro = f"""
     All {noun1} by nature desired to {verb1}. An indication of this is our liking for {noun2}.
