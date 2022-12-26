@@ -1,1 +1,2 @@
 # Philosophy_Madlibs
+This is a simple madlibs-style program where the user can choose a famous philosopher and modify the opening of one of their famous works (or, in the case of Wittgenstien, the top-level propositions of the _Tractatus_).

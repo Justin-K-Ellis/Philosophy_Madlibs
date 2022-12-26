@@ -1,13 +1,13 @@
 def republic():
-    past_verb1 = input("Give me a past-tense verb:  ")
-    noun1 = input("Give me a noun:  ")
-    noun2 = input("Give me another noun:  ")
-    verb1 = input("Give me a present-tense verb:  ")
-    adj1 = input("Give me an adjective:  ")
-    past_verb2 = input("Give me another past-tense verb:  ")
-    noun3 = input("Give me another noun:  ")
-    cont_verb = input("Give me a continuous (-ing) verb:  ")
-    cloth_or_body = input("Give me an article of clothing (or body part):  ")
+    past_verb1 = input("Give me a past-tense verb: ")
+    noun1 = input("Give me a noun: ")
+    noun2 = input("Give me another noun: ")
+    verb1 = input("Give me a present-tense verb: ")
+    adj1 = input("Give me an adjective: ")
+    past_verb2 = input("Give me another past-tense verb: ")
+    noun3 = input("Give me another noun: ")
+    cont_verb = input("Give me a continuous (-ing) verb: ")
+    cloth_or_body = input("Give me an article of clothing (or body part): ")
     verb2 = input("Last, give me one more present-tense verb: ")
 
     republic_intro = f"""
