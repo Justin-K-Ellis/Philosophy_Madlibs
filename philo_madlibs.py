@@ -69,7 +69,26 @@ def enquiry():
     print(enquiry_intro)
 
 def tractatus():
-    pass
+    world = input("Give me a noun: ")
+    case = input("Give me another noun: ")
+    fact = input("Give me another noun, please: ")
+    thought = input("Yet another noun, please: ")
+    proposition = input("I realize this is a lot of nouns, but... ")
+    truth_function = input("Yes, another noun: ")
+    symbol = input("Give me any symbol: ")
+    speak = input("Now, give me a present-tense verb: ")
+    be_silent = input("Last, give me another present-tense verb: ")
+    
+    tract_props = f"""
+    1. The {world} is everything that is the {case}.
+    2. What is the {case} (a {fact}) is the existence of states of affairs.
+    3. A logical picture of {fact}s is a {thought}.
+    4. A {thought} is a {proposition} with a sense.
+    5. A {proposition} is a {truth_function} of elementary {proposition}s. (An elementary {proposition} is a {truth_function} of itself.)
+    6. The general form of a {proposition} is the general form of a {truth_function}, which is: [{symbol}]. This is the general form of a {proposition}.
+    7. Whereof one cannot {speak}, thereof one must {be_silent}."""
+
+    print(tract_props)
 
 def main():
     while True:
